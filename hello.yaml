@@ -1,11 +1,11 @@
 - name: this is a testing playbook
   hosts: all
-  vars:
+  vars: 
   
   tasks:
    
     - name: Run Hello World
-      shell: "echo Hello World"
+      shell: "echo 'Hello {{ username }} '"
       register: testing
       
     - debug:
