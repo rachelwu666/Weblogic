@@ -5,7 +5,7 @@
   tasks:
    
     - name: Run Hello World
-      shell: "echo 'Hello world '"
+      shell: "echo {{ username }}"
       register: testing
       
     - debug:
