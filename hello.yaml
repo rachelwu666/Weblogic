@@ -9,4 +9,4 @@
       register: testing
       
     - debug:
-        msg: "{{ testing }}"
+        msg: "{{ testing.stdout }}"
